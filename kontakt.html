@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles11.css">
+    <title>Kontakt</title>
+</head>
+
+<body>
+
+    <header>
+         
+        <h1>K-nábytok</h1>
+
+        <p>Keď nábytok, tak jedine u nás!</p>
+    
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="stoly.html">Stoly</a></li>
+            <li><a href="hojdacky.html">Hojdačky</a></li>
+            <li><a href="stolicky.html">Stoličky</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form class="kontakt" action="mailto:keckar.kamil@gmail.com" method="post">
+            <fieldset>
+                <legend>Kontaktujte nás:</legend>
+                <label for="meno">Meno:</label>
+                <input type="text" name="meno" id="meno" tabindex="2" required><br>
+                <label for="priezvisko">Priezvisko:</label>
+                <input type="text" name="priezvisko" id="priezvisko" tabindex="3" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" tabindex="4" required><br>
+                <label for="text">Váš text:</label><br>
+                <textarea name="text" id="text" cols="100" rows="5" tabindex="5" required></textarea><br>
+                <input type="submit" name="odoslat" id="odoslat" value="Odoslať" tabindex="6">
+                <p>Ak preferujete, môžete nás kontaktovať <a href="mailto:keckar.kamil@gmail.com" tabindex="1">cez email</a>.</p>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footercontainer">
+            <section class="kontakt">
+                <h2>Kontakt</h2>
+                <p>Telefón: +421900123456</p>
+                <p>Email: k-nabytok@gmail.com</p>
+                <p>Facebook: K-nabytok</p>
+                <p>Instagram: Inspiruj_sa_K_nabytok</p>
+                <u><a href="kontakt.html" target="_blank" tabindex="6">Kontaktujte nás!</a></u>
+            </section>
+            <section class="adresa">
+                <h2>Adresa</h2>
+                <address>
+                    Ferdinand Robotný<br>
+                    K-nábytok s.r.o<br>
+                    Hlinská 8001<br>
+                    Žilina-Hliny V<br>
+                    01234
+                </address>
+            </section>
+        </div>
+    </footer>
+
+</body>
+
+</html>
